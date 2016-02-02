@@ -51,6 +51,7 @@
                                  <input type="submit" value="Login">
 
                              </form>
+                             <div><?php echo "$error";?></div>
                             <a href="#">Forgot Password ?</a>
                     </div>
                     <div class="col-md-6 login-right">

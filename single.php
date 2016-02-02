@@ -1,6 +1,8 @@
+<?php
+include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
-
     <body>
         <div class="head-bread">
             <div class="container">
@@ -150,7 +152,7 @@
                     </div>
                     <!-- end normal -->
                     <div class="quick-view">
-                        <a href="single.html">Quick view</a>
+                        <a href="single.php">Quick view</a>
                     </div>
                 </div>
                 <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -170,7 +172,7 @@
                     </div>
                     <!-- end normal -->
                     <div class="quick-view">
-                        <a href="single.html">Quick view</a>
+                        <a href="single.php">Quick view</a>
                     </div>
                 </div>
                 <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -190,12 +192,12 @@
                     </div>
                     <!-- end normal -->
                     <div class="quick-view">
-                        <a href="single.html">Quick view</a>
+                        <a href="single.php">Quick view</a>
                     </div>
                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
-
+<?php        include 'footer.php'; ?>
     </body>
 </html>

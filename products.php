@@ -45,13 +45,13 @@
             <div class="container">
                 <div class="header-top">
                     <div class="logo">
-                        <a href="index.html">N-AIR</a>
+                        <a href="index.php">N-AIR</a>
                     </div>
                     <div class="login-bars">
-                        <a class="btn btn-default log-bar" href="register.html" role="button">Sign up</a>
-                        <a class="btn btn-default log-bar" href="signup.html" role="button">Login</a>
+                        <a class="btn btn-default log-bar" href="register.php" role="button">Sign up</a>
+                        <a class="btn btn-default log-bar" href="signup.php" role="button">Login</a>
                         <div class="cart box_1">
-                            <a href="checkout.html">
+                            <a href="checkout.php">
                             <h3>
                                 <div class="total">
 <span class="simpleCart_total"></span>(<span id="simpleCart_quantity" class="simpleCart_quantity"></span>)</div></h3>
@@ -81,13 +81,13 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="products.html">Shoes</a></li>
-                                        <li><a href="products.html">Tees</a></li>
-                                        <li><a href="products.html">Tops</a></li>
+                                        <li><a href="products.php">Shoes</a></li>
+                                        <li><a href="products.php">Tees</a></li>
+                                        <li><a href="products.php">Tops</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="products.html">Tracks</a></li>
+                                        <li><a href="products.php">Tracks</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="products.html">Gear</a></li>
+                                        <li><a href="products.php">Gear</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -96,13 +96,13 @@
                                         <div class="row">
                                             <div class="col-sm-4 menu-img-pad">
                                                 <ul class="multi-column-dropdown">
-                                                    <li><a href="products.html">Joggers</a></li>
-                                                    <li><a href="products.html">Foot Ball</a></li>
-                                                    <li><a href="products.html">Cricket</a></li>
+                                                    <li><a href="products.php">Joggers</a></li>
+                                                    <li><a href="products.php">Foot Ball</a></li>
+                                                    <li><a href="products.php">Cricket</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="products.html">Tennis</a></li>
+                                                    <li><a href="products.php">Tennis</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="products.html">Casual</a></li>
+                                                    <li><a href="products.php">Casual</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-sm-4 menu-img-pad">
@@ -120,13 +120,13 @@
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <ul class="multi-column-dropdown">
-                                                    <li><a href="products.html">Tops</a></li>
-                                                    <li><a href="products.html">Bottoms</a></li>
-                                                    <li><a href="products.html">Yoga Pants</a></li>
+                                                    <li><a href="products.php">Tops</a></li>
+                                                    <li><a href="products.php">Bottoms</a></li>
+                                                    <li><a href="products.php">Yoga Pants</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="products.html">Sports</a></li>
+                                                    <li><a href="products.php">Sports</a></li>
                                                     <li class="divider"></li>
-                                                    <li><a href="products.html">Gym</a></li>
+                                                    <li><a href="products.php">Gym</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-sm-6">
@@ -138,16 +138,16 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">kids<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="products.html">Tees</a></li>
-                                        <li><a href="products.html">Shorts</a></li>
-                                        <li><a href="products.html">Gear</a></li>
+                                        <li><a href="products.php">Tees</a></li>
+                                        <li><a href="products.php">Shorts</a></li>
+                                        <li><a href="products.php">Gear</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="products.html">Watches</a></li>
+                                        <li><a href="products.php">Watches</a></li>
                                         <li class="divider"></li>
-                                        <li><a href="products.html">Shoes</a></li>
+                                        <li><a href="products.php">Shoes</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.html">Catch</a></li>
+                                <li><a href="contact.php">Catch</a></li>
                                 <div class="clearfix"></div>
                             </ul>
                             <div class="clearfix"></div>
@@ -166,7 +166,7 @@
         <div class="head-bread">
             <div class="container">
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li class="active">PRODUCTS</li>
                 </ol>
             </div>
@@ -191,7 +191,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                     <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -211,7 +211,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                     <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -231,7 +231,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                     <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -251,7 +251,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                     <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -271,7 +271,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                     <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -291,7 +291,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                    <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -311,7 +311,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                    <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -331,7 +331,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                    <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -351,7 +351,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                    <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -371,7 +371,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                    <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -391,7 +391,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
                    <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -411,7 +411,7 @@
                             </div>
                         <!-- end normal -->
                         <div class="quick-view">
-                            <a href="single.html">Quick view</a>
+                            <a href="single.php">Quick view</a>
                         </div>
                     </div>
             <div class="clearfix"></div>
@@ -598,7 +598,7 @@
                         <li><a href="#">Delivery</a></li>
                         <li><a href="#">Return Policy</a></li>
                         <li><a href="#">Terms & conditions</a></li>
-                        <li><a href="contact.html">Sitemap</a></li>
+                        <li><a href="contact.php">Sitemap</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6 re-ft-grd">
@@ -613,7 +613,7 @@
                 <div class="col-md-2 re-ft-grd">
                     <div class="bt-logo">
                         <div class="logo">
-                            <a href="index.html" class="ft-log">N-AIR</a>
+                            <a href="index.php" class="ft-log">N-AIR</a>
                         </div>
                     </div>
                 </div>

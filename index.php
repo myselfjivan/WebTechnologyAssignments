@@ -95,7 +95,7 @@ include("header.php");
                         </div>
                     <!-- end normal -->
                     <div class="quick-view">
-                        <a href="single.html">Quick view</a>
+                        <a href="single.php">Quick view</a>
                     </div>
                 </div>
                 <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -115,7 +115,7 @@ include("header.php");
                         </div>
                     <!-- end normal -->
                     <div class="quick-view">
-                        <a href="single.html">Quick view</a>
+                        <a href="single.php">Quick view</a>
                     </div>
                 </div>
                 <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -135,7 +135,7 @@ include("header.php");
                         </div>
                     <!-- end normal -->
                     <div class="quick-view">
-                        <a href="single.html">Quick view</a>
+                        <a href="single.php">Quick view</a>
                     </div>
                 </div>
                 <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -155,7 +155,7 @@ include("header.php");
                         </div>
                     <!-- end normal -->
                     <div class="quick-view">
-                        <a href="single.html">Quick view</a>
+                        <a href="single.php">Quick view</a>
                     </div>
                 </div>
                 <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -175,7 +175,7 @@ include("header.php");
                         </div>
                     <!-- end normal -->
                     <div class="quick-view">
-                        <a href="single.html">Quick view</a>
+                        <a href="single.php">Quick view</a>
                     </div>
                 </div>
                 <div class="col-md-4 grid-stn simpleCart_shelfItem">
@@ -195,7 +195,7 @@ include("header.php");
                         </div>
                     <!-- end normal -->
                     <div class="quick-view">
-                        <a href="single.html">Quick view</a>
+                        <a href="single.php">Quick view</a>
                     </div>
                 </div>
         <div class="clearfix"></div>
