@@ -1,3 +1,43 @@
+<?php 
+session_start();
+if($_POST['action'] == 'pagePreference') {
+  $_SESSION['pagePreference'] == $_POST['action'];
+  if(isset($_SESSION['pagePreference'])){
+      if($_SESSION['pagePreference'] == 1)
+      {
+                    header("location: products.php");
+          
+      }
+      if($_SESSION['pagePreference'] == 2)
+      {
+                    header("location: products2.php");
+          
+      }
+      if($_SESSION['pagePreference'] == 3)
+      {
+                    header("location: products3.php");
+          
+      }
+  }
+}
+?>
+<script>
+function myAjax(n) {
+      $.ajax({
+           type: "POST",
+           url: 'index.php',
+           data:{action:'pagePreference'},
+            success: function (html) {
+                alert(html);
+                var f = document.forms.myForm;
+                f.myNumber.value = n;
+                f.submit();
+            }
+
+        });
+
+    }
+</script>
 <head>
     <title>E-commerce Web Application :: Designed by Jivan Ghadage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,76 +113,9 @@
 
                     <div class="collapse navbar-collapse collapse-pdng" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav nav-font">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="products.php">Shoes</a></li>
-                                    <li><a href="products.php">Tees</a></li>
-                                    <li><a href="products.php">Tops</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="products.php">Tracks</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="products.php">Gear</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men<b class="caret"></b></a>
-                                <ul class="dropdown-menu multi-column columns-3">
-                                    <div class="row">
-                                        <div class="col-sm-4 menu-img-pad">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="products.php">Joggers</a></li>
-                                                <li><a href="products.php">Foot Ball</a></li>
-                                                <li><a href="products.php">Cricket</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="products.php">Tennis</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="products.php">Casual</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-4 menu-img-pad">
-                                            <a href="#"><img src="images/menu1.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
-                                        </div>
-                                        <div class="col-sm-4 menu-img-pad">
-                                            <a href="#"><img src="images/menu2.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
-                                        </div>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women<b class="caret"></b></a>
-                                <ul class="dropdown-menu multi-column columns-2">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="products.php">Tops</a></li>
-                                                <li><a href="products.php">Bottoms</a></li>
-                                                <li><a href="products.php">Yoga Pants</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="products.php">Sports</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="products.php">Gym</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <a href="#"><img src="images/menu3.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
-                                        </div>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">kids<b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="products.php">Tees</a></li>
-                                    <li><a href="products.php">Shorts</a></li>
-                                    <li><a href="products.php">Gear</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="products.php">Watches</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="products.php">Shoes</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.php">Catch</a></li>
+                                    <li><a onclick="myAjax(1)" href="products.php">Shoes</a></li>
+                                    <li><a onclick="myAjax(2)" href="products2.php">Shoes1</a></li>
+                                    <li><a onclick="myAjax(3)" href="products3.php">Shoes2</a></li>
                             <div class="clearfix"></div>
                         </ul>
                         <div class="clearfix"></div>
