@@ -1,15 +1,17 @@
 <?php
-$SelectedItems= $_POST['productsCart'];
-if (empty($SelectedItems)) {
-    echo("Your Cart is empty.");
-} else {
-    $N = count($SelectedItems);
+session_start();
+    $SelectedItems = $_POST['productsCart'];
+    if (empty($_SESSION['userCart'])) {
+        echo("Your Cart is empty.");
+    } else {
+        $N = count($SelectedItems);
 
-    echo("Addedd $N to cart: ");
-    for ($i = 0; $i < $N; $i++) {
-        echo($SelectedItems[$i] . " ");
+        echo("Addedd $N to cart: ");
+        $_SESSION['userCart'] = $SelectedItems;
+        for ($i = 0; $i < $N; $i++) {
+            echo($_SESSION['userCart'][$i] . " ");
+        }
     }
-}
 ?>
 <!DOCTYPE html>
 <?php include 'header.php'; ?>
