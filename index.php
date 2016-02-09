@@ -1,17 +1,16 @@
 <?php
 session_start();
-    $SelectedItems = $_POST['productsCart'];
-    if (empty($_SESSION['userCart'])) {
-        echo("Your Cart is empty.");
-    } else {
-        $N = count($SelectedItems);
-
-        echo("Addedd $N to cart: ");
-        $_SESSION['userCart'] = $SelectedItems;
-        for ($i = 0; $i < $N; $i++) {
-            echo($_SESSION['userCart'][$i] . " ");
-        }
+$SelectedItems= $_POST['productsCart'];
+if (empty($SelectedItems) && empty($_SESSION["cart"])) {
+    echo("Your Cart is empty.");
+} else {
+    $N = count($SelectedItems);
+    $_SESSION["cart"] = &$SelectedItems;
+    echo("Addedd $N to cart: ");
+    for ($i = 0; $i < $N; $i++) {
+        echo($_SESSION["cart"][$i] . " ");
     }
+}
 ?>
 <!DOCTYPE html>
 <?php include 'header.php'; ?>
